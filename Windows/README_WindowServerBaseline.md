@@ -27,6 +27,8 @@ Signature=”An account was successfully logged on”
 
 BASELINE over 45
 
+![Win 1 Alert 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%201%20Alert%202.PNG)
+
 3.	Determine a baseline and threshold for hourly count of the signature: a user account was deleted. 
 
 Signature-“a user account was deleted”
