@@ -2,57 +2,28 @@ Defend the SOC
 
 Load Windoes Attack Logs into Splunk. Analyze.
 
+REPORTS:
+
 Analysis for Severity
 
-Did you detect any suspicious changes in severity?
+Analysis for Failed Activities
 
-Report Analysis for Failed Activities
+ALERTS:
 
-Did you detect any suspicious changes in failed activities?
+Analysis for Failed Windows Activity
 
-Alert Analysis for Failed Windows Activity
+Analysis for Successful Logons
 
-Did you detect a suspicious volume of failed activity?
-If so, what was the count of events in the hour(s) it occurred?
-When did it occur?
-Would your alert be triggered for this activity?
-After reviewing, would you change your threshold from what you you previously selected?
+Analysis for Deleted Accounts
 
-Alert Analysis for Successful Logons
+DASHBOARDS:
 
-Did you detect a suspicious volume of successful logons?
-If so, what was the count of events in the hour(s) it occurred?
-Who is the primary user logging in?
-When did it occur?
-Would your alert be triggered for this activity?
-After reviewing, would you change your threshold from what you you previously selected?
+Analysis for Time Chart of Signatures
 
+Analysis for Users
 
-Alert Analysis for Deleted Accounts
+Analysis for Signatures with Bar, Graph, and Pie Charts
 
-Did you detect a suspicious volume of deleted accounts?
+Analysis for Users with Bar, Graph, and Pie Charts
 
-Dashboard Analysis for Time Chart of Signatures
-
-•	Does anything stand out as suspicious?
-•	What signatures stand out?
-•	What time did it begin/stop for each signature?
-•	What is the peak count of the different signatures?
-Dashboard Analysis for Users
-Analyze your new dashboard results and answer the following questions:
-•	Does anything stand out as suspicious?
-•	Which users stand out?
-•	What time did it begin and stop for each user?
-•	What is the peak count of the different users?
-
-Dashboard Analysis for Signatures with Bar, Graph, and Pie Charts
-Analyze your new dashboard results and answer the following questions:
-•	Does anything stand out as suspicious?
-•	Do the results match your findings in your time chart for signatures?
-Dashboard Analysis for Users with Bar, Graph, and Pie Charts
-Analyze your new dashboard results, and answer the following questions:
-•	Does anything stand out as suspicious?
-•	Do the results match your findings in your time chart for users?
-Dashboard Analysis for Users with Statistical Charts
-Analyze your new dashboard results, and answer the following question:
-•	What are the advantages and disadvantages of using this report, compared to the other user panels you created?
+Analysis for Users with Statistical Charts
