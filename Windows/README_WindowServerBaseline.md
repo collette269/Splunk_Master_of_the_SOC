@@ -35,6 +35,8 @@ Signature-“a user account was deleted”
 
 BASELINE over 25
 
+![Win 1 Alert 3](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%201%20Alert%203.PNG)
+
 DASHBOARDS: 
 1.	A line chart that displays the different signature field values over time.
 
