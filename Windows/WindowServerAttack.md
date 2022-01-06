@@ -15,6 +15,8 @@ ALERTS:
 
 Failed Windows Activity
 
+![Win 2 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%201.png)
+
 Successful Logons
 
 Deleted Accounts
