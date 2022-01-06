@@ -19,6 +19,8 @@ Status=failure
 
 BASELINE over 8   
 
+![Win 1 Alert 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%201%20Alert%201.PNG)
+
 2.	Determine a baseline and threshold for hourly count of the signature: an account was successfully logged on.   
 
 Signature=”An account was successfully logged on”
