@@ -36,17 +36,16 @@ Status=failure
 
 BASELINE over 8   
 
-
-
-
 2.	Determine a baseline and threshold for hourly count of the signature: an account was successfully logged on.   
 
 Signature=”An account was successfully logged on”
+
 BASELINE over 45
 
 3.	Determine a baseline and threshold for hourly count of the signature: a user account was deleted. 
 
 Signature-“a user account was deleted”
+
 BASELINE over 25
 
 DASHBOARDS: 
@@ -80,3 +79,5 @@ top user
 6.	A radial gauge that illustrates total level of activity
 
 stats count as total
+
+![Win 1 Log Visualization 4](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%204.png)
