@@ -22,7 +22,8 @@ Successful Logons
 ![Win 2 Alert 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%202.PNG)
 
 Deleted Accounts
-![Win 2 Alert 3](
+![Win 2 Alert 3](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%203.PNG)
+
 DASHBOARDS:
 
 Time Chart of Signatures
