@@ -17,15 +17,10 @@ Load logs into Splunk. Analyze data. Develop baseline. Create reports, alerts an
 REPORTS:
 1.	A report with a table of signatures and associated SignatureID. 
 
-table signature signature_id | dedup signature
-
 2.	A report that provides the count and percent of the severity.
-
-Top severity
 
 3.	A report that provides a comparison between the success and failure of Windows activities.
 
-Stats count by status
 ![Win 1 Log Report](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Reports.png)
 ![Win 1 Log Report Cont](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Reports%20Cont.png)
 
@@ -51,33 +46,20 @@ BASELINE over 25
 DASHBOARDS: 
 1.	A line chart that displays the different signature field values over time.
 
-timechart span=1h count by signature
-
 2.	A line chart that displays the different user field values over time.
-
-timechart count by user
 
 ![Win 1 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%201.png)
 
 3.	A pie chart that illustrates the count of different signatures.
 
-top signature
-
 ![Win 1 Log Visualization 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%202.png)
 
 4.	A pie chart that illustrates the count of different users.
 
-top user
-
 5.	A statistical chart that illustrates the count of different users.
-
-top user
 
 ![Win 1 Log Visualization 3](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%203.png)
 
-
 6.	A radial gauge that illustrates total level of activity
-
-stats count as total
 
 ![Win 1 Log Visualization 4](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%204.png)
