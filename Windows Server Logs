@@ -12,6 +12,8 @@ REPORTS:
 3.	A report that provides a comparison between the success and failure of Windows activities.
 <Stats count by status>
 
+https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Reports.png?raw=true
+
 ALERTS:
 1.	Determine a baseline and threshold for hourly level of failed Windows activity.
 <Status=failure>
