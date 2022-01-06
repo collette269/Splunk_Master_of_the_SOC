@@ -33,7 +33,10 @@ ALERTS:
 1.	Determine a baseline and threshold for hourly level of failed Windows activity.
 
 Status=failure
+
 BASELINE over 8   
+
+![Win 1 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%201.png)
 
 2.	Determine a baseline and threshold for hourly count of the signature: an account was successfully logged on.   
 
