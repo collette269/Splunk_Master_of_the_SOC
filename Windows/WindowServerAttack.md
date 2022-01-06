@@ -4,26 +4,26 @@ Load Windoes Attack Logs into Splunk. Analyze.
 
 REPORTS:
 
-Analysis for Severity
+Severity
 
-Analysis for Failed Activities
+Failed Activities
 
 ALERTS:
 
-Analysis for Failed Windows Activity
+Failed Windows Activity
 
-Analysis for Successful Logons
+Successful Logons
 
-Analysis for Deleted Accounts
+Deleted Accounts
 
 DASHBOARDS:
 
-Analysis for Time Chart of Signatures
+Time Chart of Signatures
 
-Analysis for Users
+Time Chart count by Users
 
-Analysis for Signatures with Bar, Graph, and Pie Charts
+Pie Chart of Signatures
 
-Analysis for Users with Bar, Graph, and Pie Charts
+Pie Chart & Statistical Chart of User count
 
-Analysis for Users with Statistical Charts
+Radial Dial of total count of all activity
