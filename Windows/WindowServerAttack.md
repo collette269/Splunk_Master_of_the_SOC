@@ -15,8 +15,6 @@ ALERTS:
 
 Failed Windows Activity
 
-![Win 2 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%201.png)
-
 Successful Logons
 
 Deleted Accounts
@@ -27,8 +25,11 @@ Time Chart of Signatures
 
 Time Chart count by Users
 
+![Win 2 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%201.png)
+
 Pie Chart of Signatures
 
+![Win 2 Log Visualization 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%202.png)
 Pie Chart & Statistical Chart of User count
 
 Radial Dial of total count of all activity
