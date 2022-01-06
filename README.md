@@ -36,7 +36,8 @@ Status=failure
 
 BASELINE over 8   
 
-![Win 1 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%201.png)
+
+
 
 2.	Determine a baseline and threshold for hourly count of the signature: an account was successfully logged on.   
 
@@ -57,9 +58,13 @@ timechart span=1h count by signature
 
 timechart count by user
 
+![Win 1 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%201.png)
+
 3.	A pie chart that illustrates the count of different signatures.
 
 top signature
+
+![Win 1 Log Visualization 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%202.png)
 
 4.	A pie chart that illustrates the count of different users.
 
