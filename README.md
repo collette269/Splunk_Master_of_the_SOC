@@ -74,6 +74,9 @@ top user
 
 top user
 
+![Win 1 Log Visualization 3](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Visualization%203.png)
+
+
 6.	A radial gauge that illustrates total level of activity
 
 stats count as total
