@@ -27,7 +27,8 @@ Top severity
 
 Stats count by status
 
-https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Reports.png
+<https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Reports.png>
+<https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Win%201%20Log%20Reports%20Cont.png>
 
 ALERTS:
 1.	Determine a baseline and threshold for hourly level of failed Windows activity.
