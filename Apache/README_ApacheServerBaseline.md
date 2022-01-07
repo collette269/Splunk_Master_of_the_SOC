@@ -9,6 +9,8 @@ REPORTS:
 
 3.	A report that shows the count of the HTTP response codes.
 
+![Apa 1 Log Report 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Apache/Apa%201%20Log%20Report%201.PNG)
+
 ALERTS:
 1.	Determine a baseline and threshold for hourly activity from a country other than the United States.
 
