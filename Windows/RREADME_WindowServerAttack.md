@@ -1,54 +1,66 @@
 Defend the SOC
 
-Load Windoes Attack Logs into Splunk. Analyze.
+Load Windows Attack Logs into Splunk. Analyze.
 
 REPORTS:
 
-Severity
+The second set of log activity changed significantly from the normal operation proceedure logs. The failed attempts at loggin decreased by half, the successful loggin increased and the number of high severity risk events increased by 70%.  
 
-Failed Activities
+![image](https://user-images.githubusercontent.com/88781846/148576484-5fe75529-a989-442c-8bf7-38389afb4d88.png)
 
 ![Win 2 Log Reports](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Reports.png)
 ![Win 2 Log Reports Cont ](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Reports%20Cont.png)
-
-![image](https://user-images.githubusercontent.com/88781846/148576206-da1fe409-5c98-461a-826a-c5a22f677532.png)
 
 ALERTS:
 
 Failed Windows Activity
 
-Baseline over 8
+On March 25th, 2020 at 9am, the ALERT for more than 8 failed loggins in one hour would have emailed the SOC team to investigate. 
 
 ![Win 2 Alert 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%201.PNG)
 
 Successful Logons
 
-Baseline over 45
+On March 26th, at noon, the ALERT for more than 45 successful loggins in one hour would have email the SOC team to investigate. 
 
 ![Win 2 Alert 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%202.PNG)
 
 Deleted Accounts
 
-Baseline over 25
+The ALERT for more than 25 deleted accounts in one hour was not triggered as requirements were not met.
 
 ![Win 2 Alert 3](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%203.PNG)
 
 DASHBOARDS:
 
-Time Chart of Signatures
+High Activity to Note:
 
-Time Chart count by Users
+Midnight to 3am user account was locked out.
+
+8am to 11am attempts to reset a password.
+
+10am -1pm account was successfully logged on.
+
+1:40am to 2:40am User A very active.
+
+9:10am to 11am. User K very active.
+
+10:40am to 11:20am User J more active.
 
 ![Win 2 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%201.png)
 
-Pie Chart of Signatures
+40% of all signatures was an attempt was made to reset a password.
+
+34% a user account was locked out.
 
 ![Win 2 Log Visualization 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%202.png)
 
-Pie Chart & Statistical Chart of User count
+36% or 1,878 User A total activity 
+
+40% or 2,118 User K total activity
 
 ![Win 2 Log Visualization 3](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%203.png)
 
-Radial Dial of total count of all activity
+Total activity almost in the high range.  
 
 ![Win 2 Log Visualization 4](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%204.png)
