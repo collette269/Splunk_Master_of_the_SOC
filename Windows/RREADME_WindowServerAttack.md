@@ -11,6 +11,16 @@ Failed Activities
 ![Win 2 Log Reports](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Reports.png)
 ![Win 2 Log Reports Cont ](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Reports%20Cont.png)
 
+Windows REPORT				
+	Win Part1	Win Part2		
+Success	4622	5256	12.06%	
+Failure	142	93	-52.69%	
+High Severity	329	1111	70.39%	
+successful logged on	4624	4624	0.00%	baseline 45 per hr
+a user was deleted	4726	4726	0.00%	baseline 25 per hr
+![image](https://user-images.githubusercontent.com/88781846/148576011-222fdbae-84b1-4289-9561-20a257ec883d.png)
+
+
 ALERTS:
 
 Failed Windows Activity
