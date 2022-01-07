@@ -15,17 +15,13 @@ ALERTS:
 
 Failed Windows Activity
 
-On March 25th, 2020 at 9am, the ALERT for more than 8 failed loggins in one hour would have emailed the SOC team to investigate. 
+The ALERT for more than 8 failed loggins in one hour would have emailed the SOC team to investigate at 9am. 
 
 ![Win 2 Alert 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%201.PNG)
 
-Successful Logons
-
-On March 26th, at noon, the ALERT for more than 45 successful loggins in one hour would have email the SOC team to investigate. 
+The ALERT for more than 45 successful loggins in one hour would have email the SOC team to investigate at noon. 
 
 ![Win 2 Alert 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%202.PNG)
-
-Deleted Accounts
 
 The ALERT for more than 25 deleted accounts in one hour was not triggered as requirements were not met.
 
@@ -40,6 +36,7 @@ Midnight to 3am user account was locked out.
 8am to 11am attempts to reset a password.
 
 10am -1pm account was successfully logged on.
+
 
 1:40am to 2:40am User A very active.
 
@@ -64,3 +61,5 @@ Midnight to 3am user account was locked out.
 Total activity almost in the high range.  
 
 ![Win 2 Log Visualization 4](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%204.png)
+
+CONCLUSION: The SOC team was notified at 9am and noon.  At 9am, the attack started 9 hours prior and would have been when the attackers were brute force trying to reset passwords.  By the second alert at noon, the attackers would have been in the middle of successfully logging in the the accounts. I recommend adding an Alert for the number of users locked out in an hour. 
