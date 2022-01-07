@@ -62,4 +62,9 @@ Total activity almost in the high range.
 
 ![Win 2 Log Visualization 4](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Log%20Visualization%204.png)
 
-CONCLUSION: The SOC team was notified at 9am and noon.  At 9am, the attack started 9 hours prior and would have been when the attackers were brute force trying to reset passwords.  By the second alert at noon, the attackers would have been in the middle of successfully logging in the the accounts. I recommend adding an Alert for the number of users locked out in an hour. 
+CONCLUSION: This was a brute force attack that started March 25th at midnight. The attackers were able to gain access to User A, User K and User J. The SOC team was emailed at 9am and noon. 
+
+I recommend adding an alert for the users locked out in an hour. In the attack, an alert would have been sent at 2am, providing more time for the SOC analyst team to review and react. 
+
+![Win 2 Alert 4](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%204.PNG)
+
