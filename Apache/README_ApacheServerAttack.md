@@ -10,7 +10,11 @@ A report that shows the top 10 domains that referred to VSI's website.
 
 A report that shows the count of the HTTP response codes. 
 
-Apache Report Comparison --- needs inserted
+Apache Report Comparison
+
+Apache REPORT Comparison				
+
+![image](https://user-images.githubusercontent.com/88781846/148950172-a56bd59e-9403-440b-93d4-491cd0f88331.png)
 
 ![Apa 2 Log Report 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Apache/Apa%202%20Log%20Report%201.PNG)
 
