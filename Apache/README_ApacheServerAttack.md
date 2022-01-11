@@ -30,14 +30,14 @@ The ALERT for more than 20 HTTP POST events per hour would have been triggered a
 
 VISUALIZATIONSS:
 
-A line chart that displays the different HTTP methods field over time.
-A geographical map showing the location based on the clientip field.
-
 High Activity to Note: 
  
 GET activity increased to 729 at 6pm.
 
 POST activity increased to 1,296 at 8pm.
+
+Kiev activity count 872
+Kharkiv activity count 432
 
 ![Apa 2 Log Visualization 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Apache/Apa%202%20Visualization%201.PNG)
 
@@ -54,3 +54,5 @@ Total events decreased from 20,000 to 4,497.
 ![Apa 2 Log Visualization 3](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Apache/Apa%202%20Visualization%203.PNG)
 
 CONCLUSION: 
+This was a brute force attack that started March 25th at 8pm against the VSI logon page, possibly from a location in the Ukraine.  Both SOC alerts for HTTP posts and activity from non-USA countries would have emailed the team in a timely manner. 
+
