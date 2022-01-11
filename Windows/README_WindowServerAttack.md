@@ -27,7 +27,7 @@ The ALERT for more than 25 deleted accounts in one hour was not triggered as req
 
 ![Win 2 Alert 3](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Windows/Win%202%20Alert%203.PNG)
 
-DASHBOARDS:
+VISUALIZATIONSS:
 
 High Activity to Note:
 
