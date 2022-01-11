@@ -13,14 +13,16 @@ REPORTS:
 
 ALERTS:
 1.	Determine a baseline and threshold for hourly activity from a country other than the United States.
+BASELINE = 200
 
 ![Apa 1 Alert 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Apache/Apa%201%20Alert%201.PNG)
 
 2.	Determine an appropriate baseline and threshold for hourly count of the HTTP POST method.
+BASELINE = 20
 
 ![Apa 1 Alert 2](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Apache/Apa%201%20Alert%202.PNG)
 
-DASHBOARDS:
+VISUALIZATION:
 
 1.	A line chart that displays the different HTTP methods field over time.
 2.	A geographical map showing the location based on the clientip field.
