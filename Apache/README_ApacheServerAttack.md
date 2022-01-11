@@ -6,7 +6,7 @@ REPORTS:
 
 The...  
 
-![image](https://user-images.githubusercontent.com/88781846/148576484-5fe75529-a989-442c-8bf7-38389afb4d88.png)
+Apache Report Comparison --- needs inserted
 
 ![Apa 2 Log Report 1](https://github.com/collette269/Splunk_Master_of_the_SOC/blob/main/Apache/Apa%202%20Log%20Report%201.PNG)
 
